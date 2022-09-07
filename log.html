@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>건강한펫</title>
+  <link href="images/title_logo.png" rel="shortcut icon" type="image/x-ion">
+  <style>
+    #container{
+      width: 370px;
+      height: 340px;
+      border: 1px solid #eee;
+      margin: 60px auto;
+      position: relative;
+    }
+    h2{
+    text-align: center;
+    font-weight: bold;
+    }
+    .input_block{
+     display: block;
+     width: 322px;
+     height: 87px;
+     margin: 20px auto;
+    }
+    input:not(input[type=checkbox]){
+      box-sizing: border-box;
+      padding: 14px;
+      border: 1px solid #ccc;
+      border-radius: 2px;
+      width: 100%;
+    }
+   .check{
+    padding-left: 22px;
+    margin-top: 10px;
+   }
+    button{
+    background-color: black;
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    width: 319px;
+    height: 41px;
+    display: block;
+    margin: 10px auto;
+  
+   }
+   .join_find a{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    position: relative;
+   }
+   #join_pos{
+    position: absolute;
+    left: 25px;
+   } 
+   #find_pos{
+    position: absolute;
+    right: 25px;
+   }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <h2>로그인</h2>
+    <form>
+      <div class="input_block">
+        <label for="mail"></label>
+        <input type="email" id="mail" placeholder="이메일" autofocus required>
+        <label for="pw"></label>
+        <input type="password" id="pw" placeholder="비밀번호" required>
+      </div>
+      <div class="check">
+        <input type="checkbox" id="chek">
+        <label for="check">로그인상태유지</label>
+      </div>
+      <button type="submit" value="log">로그인</button>   
+     </form>
+    <div class="join_find">
+      <a href="#" id="join_pos">회원가입</a>
+      <a href="#" id="find_pos">아이디 . 비밀번호 찾기</a>
+    </div>
+  </div>
+</body>
+</html>

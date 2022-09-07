@@ -1,0 +1,29 @@
+#container{
+  width: 600px; 
+}
+#box{
+  border:1px solid black;
+  margin-bottom:30px;
+  padding: 20px;
+}
+#box2{
+ border:1px solid black;
+ border-bottom-left-radius: 25px;
+ border-bottom-right-radius: 25px;
+ margin-bottom:30px;
+ padding: 20px;
+}
+#box3{
+  border:1px solid black;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  margin-bottom:30px;
+  padding: 20px;
+}
+table, th, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px 20px;
+}
+
+   

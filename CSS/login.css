@@ -1,0 +1,100 @@
+#continer{
+  box-sizing: border-box;
+}
+#container2{
+  width: 370px;
+  height: 340px;
+  border: 1px solid #eee;
+  margin: 60px auto;
+  position: relative;
+}
+header{
+  color: black;
+}
+.menu{
+  padding-bottom: 20px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+.menu ul{
+  list-style: none;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+.menu li{
+  float: left;
+  list-style: none;
+  padding-right: 20px;
+  position: relative;
+  left: 350px;
+}
+.logo{
+ display: block;
+ margin: 20px auto;
+ width: 236px;
+ height: 59px;
+}
+.ser{
+  border: 1px solid #ccc;
+  background-color: #ccc;
+  text-decoration: none;
+  position: relative;
+  bottom: 60px;
+  color: black;
+}
+.sign{
+  color: black;
+  float: right;
+  position: relative;
+  bottom: 60px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+h2{
+text-align: center;
+font-weight: bold;
+}
+.input_block{
+ display: block;
+ width: 322px;
+ height: 87px;
+ margin: 20px auto;
+}
+input:not(input[type=checkbox]){
+  box-sizing: border-box;
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  width: 100%;
+}
+.check{
+padding-left: 22px;
+margin-top: 10px;
+}
+button{
+background-color: black;
+color: white;
+border: 1px solid #ccc;
+border-radius: 2px;
+width: 319px;
+height: 41px;
+display: block;
+margin: 10px auto;
+
+}
+.join_find a{
+text-decoration: none;
+font-size: 14px;
+color: black;
+position: relative;
+}
+#join_pos{
+position: absolute;
+left: 25px;
+} 
+#find_pos{
+position: absolute;
+right: 25px;
+}

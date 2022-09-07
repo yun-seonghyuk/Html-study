@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>가상선택자</title>
+  <style>
+    .container{
+      width: 960px;
+      margin: 0 auto;
+    }
+    .nav1{
+      width: 960px;
+      height: 60px;
+      padding-bottom: 2px solid #ccc;
+    }
+    .nav1 ul{
+      list-style: none;
+      padding-top: 10px;
+      padding-bottom: 5px;
+    }
+    .nav1 ul li{
+      float: left;
+      width: 150px;
+      padding: 10px;
+    }
+    .nav1 a:link, .nav1 a:visited{
+      display: block;
+      font-size: 14px;
+      color: #000;
+      padding: 10px;
+      text-decoration: none;
+      text-align: center;
+    }
+    .nav1 a:hover, .nav1 a:focus{
+      background-color: #222;
+      color: #fff;
+    }
+    .nav1 a:active{
+      background-color:blue;
+    }
+    .contents{
+      margin: 30px auto;
+      width: 400px;
+      padding: 20px;
+      border: 1px solid #222;
+      border-radius: 5px;
+    }
+    #intro:target{
+      background-color: #0069e0;
+      color: white;
+    }
+    #room:target{
+      background-color: #ff9844;
+    }
+    #reservation:target{
+      background-color: #fff8dc;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <nav class="nav1">
+      <ul>
+        <li><a href="#intro">이용 안내</a></li>
+        <li><a href="#room">객실 소개</a></li>
+        <li><a href="#reservation">예약 방법 및 요금</a></li>
+        <li><a href="#">예약하기</a></li>
+      </ul>
+    </nav>
+    <div id="intro" class="contents">
+      <h2>이용 안내</h2>
+      <p>유럽축구 이적 전문가 파브리지오 로마노는 1일(한국시간) 자신의 SNS를 통해 "데스트가 AC 밀란으로 향한다. 우선 1년 임대이며2000만 유로(약 271억 원) 가량의 완전 이적 옵션이 있다. AC 밀란이 이를 발동시킨다면, 추가로 4년 계약을 맺게 된다"고 전했다. 특유의 "Here we go!" 문구도 빠뜨리지 않았다.</p>
+    </div>
+    <div id="room" class="contents">
+      <h2>객실 소개</h2>
+      <p>데스트는 아약스 유스 출신 우측 수비수로 지난 2019년 1군 무대를 밟았다. 그는 곧바로 좋은 활약을 펼치며 크게 주목받았고, 2020년 10월 바르셀로나 유니폼을 입었다.</p>
+    </div>
+    <div id="reservation" class="contents">
+      <h2>예약 방법 및 요금</h2>
+      <p>그러나 데스트는 바르셀로나 합류 이후 날개를 펴지 못했다. 그는 빠른 발을 갖췄으나 수비력은 물론 크로스와 마무리 능력에서도 약점을 보이며 후보로 전락했다. 바르셀로나는 지난겨울 급한 대로 노장 다니 알베스를 다시 영입하기까지 했다.</p>
+    </div>
+  </div>
+</body>
+</html>
